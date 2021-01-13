@@ -1,0 +1,59 @@
+.test
+{
+    display: flex;
+}
+.row{
+    
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.column{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.container{
+    
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.card{
+    
+    display:table-cell; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    
+}
+.card-header{
+    background-color: brown;
+    
+    height: 75px;
+    display: flex;
+    align-items: center;
+    
+}
+.card-body{
+    background-color: darkmagenta;
+     
+    display: flex;
+    align-items: center;
+    
+}
+.card-footer{
+    
+    background-color: darkkhaki;
+     
+    height: 75px;
+    display: flex;
+    align-items: center;
+    
+}
+
